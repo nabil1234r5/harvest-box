@@ -35,13 +35,11 @@ export default async function OpsLoginPage({
           name="passcode"
           type="password"
           className="field"
-          placeholder="harvest"
           required
         />
         <button className="mt-4 w-full rounded-full bg-clay px-6 py-3 font-semibold text-cream transition hover:bg-clay-dark">
           Unlock
         </button>
-        <p className="mt-3 text-xs text-bark-soft">Demo passcode: harvest</p>
       </form>
     </main>
   );
