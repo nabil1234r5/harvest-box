@@ -1,0 +1,7 @@
+[build]
+  base = "harvest-box-mvp-development (1)"
+  command = "npm ci --include=dev --no-audit --no-fund && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
